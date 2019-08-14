@@ -1,0 +1,28 @@
+{
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "1.0.0",
+		"jakub-onderka/php-console-highlighter": "0.4.0",
+		"mediawiki/mediawiki-codesniffer": "26.0.0",
+		"mediawiki/minus-x": "0.3.2",
+		"mediawiki/mediawiki-phan-config": "0.6.1"
+	},
+	"scripts": {
+		"fix": [
+			"phpcbf",
+			"minus-x fix ."
+		],
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpcs -p -s",
+			"minus-x check ."
+		],
+		"phan": [
+			"PHAN=vendor/etsy/phan/phan ../../tests/phan/bin/phan"
+		],
+		"seccheck": "seccheck-mwext",
+		"seccheck-fast": "seccheck-fast-mwext"
+	},
+	"extra": {
+		"phan-taint-check-plugin": "2.0.2"
+	}
+}

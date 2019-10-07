@@ -16,9 +16,6 @@
 			"phpcs -p -s",
 			"minus-x check ."
 		],
-		"phan": [
-			"PHAN=vendor/etsy/phan/phan ../../tests/phan/bin/phan"
-		],
 		"seccheck": "seccheck-mwext",
 		"seccheck-fast": "seccheck-fast-mwext"
 	},

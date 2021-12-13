@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"gitgadgets-desc": "Permitte que gadgets usa repositorios Git distante como fontes."
+}

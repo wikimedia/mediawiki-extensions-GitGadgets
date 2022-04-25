@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"StarrySky"
+		]
+	},
+	"gitgadgets-desc": "允许小工具使用远程 git 存储库作为源。"
+}

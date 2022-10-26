@@ -19,7 +19,6 @@ module.exports = function ( grunt ) {
 		},
 		stylelint: {
 			options: {
-				syntax: 'less',
 				allowEmptyInput: true
 			},
 			all: [

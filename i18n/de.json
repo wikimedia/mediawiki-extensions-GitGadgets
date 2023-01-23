@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justman10000"
+		]
+	},
+	"gitgadgets-desc": "Ermöglicht es Gadgets, entfernte Git-Repos als Quellen zu verwenden."
+}

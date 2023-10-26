@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"gitgadgets-desc": "Permite que os trebellos usen repositorios git remotos como orixe."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"gitgadgets-desc": "Hiermee kunnen gadgets externe git-repo’s als bron gebruiken."
+}

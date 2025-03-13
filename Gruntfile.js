@@ -20,7 +20,8 @@ module.exports = function ( grunt ) {
 		stylelint: {
 			options: {
 				syntax: 'less',
-				allowEmptyInput: true
+				allowEmptyInput: true,
+				cache: true
 			},
 			all: [
 				'**/*.{css,less}',

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"gitgadgets-desc": "Umožňuje doplnkom používať vzdialené git repozitáre ako zdroje."
+}

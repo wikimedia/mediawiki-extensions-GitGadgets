@@ -16,9 +16,6 @@
 			"i18n"
 		]
 	},
-	"ConfigRegistry": {
-		"GitGadgets": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
-	},
 	"config_prefix": "wg",
 	"config": {
 	},
